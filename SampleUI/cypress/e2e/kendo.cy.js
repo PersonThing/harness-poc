@@ -1,6 +1,6 @@
 describe('kendo.cy', () => {
   beforeEach(() => {
-    cy.visit('/kendo') // have to load this or request to 5191 fails.. since cypress does the request from the current page
+    cy.visit('/kendo')
   })
 
   it('grid works', () => {
