@@ -6139,11 +6139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\SampleApp\\SampleService.Tests\\SampleService.Tests.csproj",
+      "projectUniqueName": "C:\\dev\\harness-poc\\sampleservice.tests\\SampleService.Tests.csproj",
       "projectName": "SampleService.Tests",
-      "projectPath": "C:\\dev\\SampleApp\\SampleService.Tests\\SampleService.Tests.csproj",
+      "projectPath": "C:\\dev\\harness-poc\\sampleservice.tests\\SampleService.Tests.csproj",
       "packagesPath": "C:\\Users\\Tim\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\SampleApp\\SampleService.Tests\\obj\\",
+      "outputPath": "C:\\dev\\harness-poc\\sampleservice.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6163,8 +6163,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\dev\\SampleApp\\SampleService\\SampleService.csproj": {
-              "projectPath": "C:\\dev\\SampleApp\\SampleService\\SampleService.csproj"
+            "C:\\dev\\harness-poc\\SampleService\\SampleService.csproj": {
+              "projectPath": "C:\\dev\\harness-poc\\SampleService\\SampleService.csproj"
             }
           }
         }

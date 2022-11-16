@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D/F7kJZAErcYBRPglQUEKjmqsHc+cGWRXfOz2ugXgx+GfhHfO6BiJEJMP8hRjwP9nyfQrl2k039FN3hGyFMzzQ==",
+  "dgSpecHash": "y3xjNBRdkVJDN+uDl1sLRjJt2VN863tHkM6X0SumdSBBUd4I46YBI5y9mEJUsWh3oqUk95gszACh6AJEmMsfQw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\SampleApp\\SampleService.Tests\\SampleService.Tests.csproj",
+  "projectFilePath": "C:\\dev\\harness-poc\\sampleservice.tests\\SampleService.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tim\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Tim\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

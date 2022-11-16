@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\SampleApp\\SampleService\\SampleService.csproj": {}
+    "C:\\dev\\harness-poc\\SampleService\\SampleService.csproj": {}
   },
   "projects": {
-    "C:\\dev\\SampleApp\\SampleService\\SampleService.csproj": {
+    "C:\\dev\\harness-poc\\SampleService\\SampleService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\SampleApp\\SampleService\\SampleService.csproj",
+        "projectUniqueName": "C:\\dev\\harness-poc\\SampleService\\SampleService.csproj",
         "projectName": "SampleService",
-        "projectPath": "C:\\dev\\SampleApp\\SampleService\\SampleService.csproj",
+        "projectPath": "C:\\dev\\harness-poc\\SampleService\\SampleService.csproj",
         "packagesPath": "C:\\Users\\Tim\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\SampleApp\\SampleService\\obj\\",
+        "outputPath": "C:\\dev\\harness-poc\\SampleService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

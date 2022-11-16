@@ -5,6 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Svelte</title>
+
+    <!-- kendo js and css references
+      I'd prefer to pull these in via npm and import the relevant bits into svelte components
+      as this would give us intellisense etc
+      but this works for now -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.3.913/js/angular.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.3.913/js/jszip.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.3.913/js/kendo.all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://kendo.cdn.telerik.com/2022.3.913/styles/kendo.default-ocean-blue.min.css"
+    />
   </head>
   <body>
     <div id="app"></div>
