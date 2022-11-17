@@ -3,15 +3,15 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /source
 
 # copy csproj and restore as distinct layers
-COPY aspnetapp/*.csproj .
+COPY SampleService/*.csproj .
 RUN dotnet restore --use-current-runtime  
 
 # copy everything else and build app
-COPY aspnetapp/. .
+COPY SampleService/. .
 RUN dotnet publish -c Release -o /app --use-current-runtime --self-contained false --no-restore
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build /app .
-ENTRYPOINT ["dotnet", "aspnetapp.dll"]
+ENTRYPOINT ["dotnet", "SampleService.dll"]
