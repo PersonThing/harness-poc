@@ -35,3 +35,5 @@ Commands:
   - deploy SampleService as container somewhere
   - deploy SampleUI to S3
   - not yet implemented: flyway database migrations (talk about this.. I haven't made this API use a database / haven't had time to dig into flyway yet)
+
+step should fail on upload not going
