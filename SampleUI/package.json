@@ -10,7 +10,12 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+
+    "api-container-publish-dotnet": "cd ../SampleService && dotnet publish --os linux --arch x64 -c Release -p:PublishProfile=DefaultContainer",
+    "api-container-publish-dockerfile": "cd ../SampleService && docker build -t sampleservicedockerfile -f Dockerfile .",
+    "api-container-start": "docker run -it --rm -p 5010:80 sampleservice:1.0.0",
+    "api-container": "run-s api-container-publish api-container-start"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.1.0",

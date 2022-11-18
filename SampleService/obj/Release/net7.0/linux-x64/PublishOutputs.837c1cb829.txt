@@ -1,0 +1,7 @@
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\SampleService
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\appsettings.Development.json
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\appsettings.json
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\SampleService.dll
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\SampleService.deps.json
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\SampleService.runtimeconfig.json
+C:\dev\harness-poc\SampleService\bin\Release\net7.0\linux-x64\publish\SampleService.pdb

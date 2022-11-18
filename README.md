@@ -37,3 +37,12 @@ Commands:
   - not yet implemented: flyway database migrations (talk about this.. I haven't made this API use a database / haven't had time to dig into flyway yet)
 
 step should fail on upload not going
+
+.dockerfile for service
+
+build and push that image to ECR
+
+create a dockerfile
+
+for deployment we need an EKS cluster with delegate installed
+

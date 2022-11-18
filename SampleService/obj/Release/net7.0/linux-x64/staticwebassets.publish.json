@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1RS1f13QR0tf0LfFWqtoZ6SJNFkmn7YUbZyUd2fFcTI=",
+  "Source": "SampleService",
+  "BasePath": "_content/SampleService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
